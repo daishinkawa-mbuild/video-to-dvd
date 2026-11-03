@@ -1,0 +1,39 @@
+# macOSとXcodeの個人設定・生成物
+.DS_Store
+.build/
+.swiftpm/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+build/
+dist/
+
+# 入力動画とDVD・配布イメージ
+*.mov
+*.MOV
+*.mp4
+*.MP4
+*.m4v
+*.mkv
+*.avi
+*.mpg
+*.mpeg
+*.iso
+*.dmg
+*.pkg
+*.vob
+*.VOB
+VIDEO_TS/
+AUDIO_TS/
+.dvd-video.*/
+
+# 署名・公証用の認証情報
+.env
+.env.*
+!.env.example
+*.p12
+*.p8
+*.key
+*.cer
+*.mobileprovision
+*.provisionprofile
